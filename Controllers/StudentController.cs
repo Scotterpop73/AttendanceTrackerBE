@@ -10,5 +10,9 @@ namespace AttendanceTrackerBE.Controllers;
 [Route("[controller]")]
 public class StudentController : ControllerBase
 {
-
+    [HttpPost]
+    [Route("AddStudent")]
+    public bool AddStudent(StudentModel item){
+        return true;
+    }
 }

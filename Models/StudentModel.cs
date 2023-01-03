@@ -17,6 +17,7 @@ namespace AttendanceTrackerBE.Models
         public int dayLate { get; set; }
         public int dayExcused { get; set; }
         public bool isDeleted { get; set; }
+        public StudentModel(){}
 //         Student model
 // ID
 // Season ID
