@@ -12,6 +12,6 @@ namespace AttendanceTrackerBE.Models
         public bool isCurrent { get; set; }
         public bool isArchived { get; set; }
         
-        SeasonModel(){}
+        public SeasonModel(){}
     }
 }
